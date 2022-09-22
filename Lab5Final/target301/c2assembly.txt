@@ -1,0 +1,12 @@
+
+c2assembly.o:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+0000000000000000 <.text>:
+   0:	8b 3c 25 8e a5 36 5b 	mov    0x5b36a58e,%edi
+   7:	48 8b 24 25 20 9d 67 	mov    0x55679d20,%rsp
+   e:	55 
+   f:	c3                   	retq   
+  10:	f4                   	hlt    
